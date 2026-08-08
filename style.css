@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&display=swap');
+
     /* import googlefonts =>outfit  */
 
 
@@ -35,7 +38,7 @@ nav{
     color: #c4c4c4;
 }
 .nav-country h1{
-    color: fff;
+    color: #fff;
     font-size: 14px;
 
 }
@@ -69,7 +72,7 @@ nav{
     max-width: 41px;
     padding: 8px;
     background: #ffd64f;
-    border: 0 4px 4px 0;
+    border-radius: 0 4px 4px 0;
 }
 .nav-language{
     display: flex;
@@ -132,4 +135,30 @@ nav{
 }
 .control_next{
     right: 0;
+}
+.box-row{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 25px;
+    justify-content: space-between;
+    margin: 20px 30px;
+
+}
+.box-col{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+    background: #fff;
+    max-width: 24%;
+    min-height: 200px;
+    z-index: 1;
+}
+.box-col a{
+    font-size: 13px;
+    color: #009999;
+    font-weight: 500;
+}
+.header-box{
+    margin-top: -20vw;
 }
