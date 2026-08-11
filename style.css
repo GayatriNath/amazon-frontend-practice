@@ -231,11 +231,10 @@ nav{
     font-size: 13px;
 
 }
-.product-price h4{
+.products-card h4 {
     color: #525252;
     font-size: 15px;
     font-weight: 400;
-
 }
 footer{
     display: flex;
